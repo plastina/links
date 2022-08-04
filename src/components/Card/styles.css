@@ -1,0 +1,23 @@
+.card-image {
+  background-color: white;
+  border-radius: 40px;
+  margin: 10px 0;
+  height: 6rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+h5{
+  margin-top: 20px;
+}
+
+
+p {
+  color: #2ab971;
+}
+
+h4 {
+  font-family: 'Poppins Medium';
+}
