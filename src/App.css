@@ -1,9 +1,16 @@
 * {
   padding: 0;
-  background-color: #202024;
-  color: white;
   font-family: 'Poppins Regular';
-  font-size: 15px;
+  
+}
+
+body{  
+  background-image: url('https://www.codingem.com/wp-content/uploads/2021/10/juanjo-jaramillo-mZnx9429i94-unsplash-scaled.jpg');
+  backdrop-filter: blur(12px);
+  background-repeat: repeat;
+  background-size: cover;
+  color: #4ECAA5;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 

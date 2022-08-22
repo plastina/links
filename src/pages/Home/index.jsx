@@ -42,14 +42,14 @@ export function Home() {
   ];
   return (
     <>
-      <div className="container p-4 align-items-center text-center ">
+      <div className="container1 p-4 align-items-center text-center ">
         <img src={photo} alt="" width={"250px"} className="px-2" />
         <div >
           <h5>Bruno Plastina</h5>
           <p>@dev_plastina</p>
         </div>
       </div>
-      <div className="container p-4 text-center">
+      <div className="container2 p-4 col-4 row m-auto align-items-center text-center">
         {link.map((link) => {
           return <Card links={link} />;
         })}

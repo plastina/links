@@ -3,11 +3,14 @@
   border-radius: 40px;
   margin: 10px 0;
   height: 6rem;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
+  display:flex;
 }
+
+.card-image img{
+  background-color: white;
+  margin: auto;
+}
+
 
 h5{
   margin-top: 20px;
@@ -15,8 +18,10 @@ h5{
 
 
 p {
-  color: #2ab971;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
+
 
 h4 {
   font-family: 'Poppins Medium';
