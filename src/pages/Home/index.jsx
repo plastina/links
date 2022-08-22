@@ -13,37 +13,37 @@ export function Home() {
     {
       img: linkedin,
       title: "Linkedin",
-      description: "Link do meu perfil do Linkedin. @plastina",
+      description: "/plastina",
       url: "http://www.linkedin.com/in/plastina",
     },
     {
       img: github,
       title: "Github",
-      description: "Link do meu perfil no Github. @plastina",
+      description: "/plastina",
       url: "https://github.com/plastina",
     },
     {
       img: instagram,
       title: "Instagram",
-      description: "Link do meu perfil do Insta. @dev_plastina",
+      description: "@dev_plastina",
       url: "https://www.instagram.com/dev_plastina/",
     },
     {
       img: tiktok,
       title: "TikTok",
-      description: "Link do meu perfil do TikTok. @dev_plastina",
+      description: "@dev_plastina",
       url: "https://www.tiktok.com/@dev_plastina",
     },
     {
       img: twitter,
       title: "Twitter",
-      description: "Link do meu perfil do Twitter. @plastina",
+      description: "@plastina",
       url: "https://www.twitter.com/plastina/",
     },
     {
       img: gmail,
       title: "Gmail",
-      description: "Deseja falar comigo? Clique acima!",
+      description: "Deseja falar comigo?",
       url: "mailto:plastina.bp@gmail.com",
     },
   ];
