@@ -61,7 +61,7 @@ export function Home() {
           return <Card links={link} />;
         })}
       </div>
-      <div className="text-center mt-4">
+      <div className="text-center p-4 mt-4">
         <p2>Created by Bruno Plastina</p2>
       </div>
     </>
