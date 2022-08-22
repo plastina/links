@@ -5,10 +5,17 @@ import instagram from "../../assets/instagram.gif";
 import tiktok from "../../assets/tiktok.gif";
 import linkedin from "../../assets/linkedin.gif";
 import twitter from "../../assets/twitter.gif";
+import gmail from "../../assets/gmail.gif";
 import { Card } from "../../components/Card";
 
 export function Home() {
   const link = [
+    {
+      img: linkedin,
+      title: "Linkedin",
+      description: "Link do meu perfil do Linkedin. @plastina",
+      url: "http://www.linkedin.com/in/plastina",
+    },
     {
       img: github,
       title: "Github",
@@ -28,16 +35,16 @@ export function Home() {
       url: "https://www.tiktok.com/@dev_plastina",
     },
     {
-      img: linkedin,
-      title: "Linkedin",
-      description: "Link do meu perfil do Linkedin. @plastina",
-      url: "http://www.linkedin.com/in/plastina",
-    },
-    {
       img: twitter,
       title: "Twitter",
       description: "Link do meu perfil do Twitter. @plastina",
       url: "https://www.twitter.com/plastina/",
+    },
+    {
+      img: gmail,
+      title: "Gmail",
+      description: "Deseja falar comigo? Clique acima!",
+      url: "mailto:plastina.bp@gmail.com",
     },
   ];
   return (
@@ -49,7 +56,7 @@ export function Home() {
           <p>@dev_plastina</p>
         </div>
       </div>
-      <div className="container2 p-4 col-4 row m-auto align-items-center text-center">
+      <div className="container2 p-4 col-8 row m-auto align-items-center text-center">
         {link.map((link) => {
           return <Card links={link} />;
         })}
