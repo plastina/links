@@ -28,3 +28,9 @@ body{
   font-family: 'Poppins Bold';
   src: url('./assets/fonts/Poppins-Bold.ttf');
 }
+
+.footer {
+  color: white;
+  padding: 37px;
+  text-align: center;
+}

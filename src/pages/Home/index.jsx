@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../../assets/foto.png";
+import photo from "../../assets/foto.jpg";
 import github from "../../assets/github.gif";
 import instagram from "../../assets/instagram.gif";
 import tiktok from "../../assets/tiktok.gif";
@@ -7,6 +7,7 @@ import linkedin from "../../assets/linkedin.gif";
 import twitter from "../../assets/twitter.gif";
 import gmail from "../../assets/gmail.gif";
 import { Card } from "../../components/Card";
+import "../../App.css";
 
 export function Home() {
   const link = [
@@ -25,21 +26,21 @@ export function Home() {
     {
       img: instagram,
       title: "Instagram",
-      description: "@dev_plastina",
-      url: "https://www.instagram.com/dev_plastina/",
+      description: "@plastinab",
+      url: "https://www.instagram.com/plastinab/",
     },
-    {
-      img: tiktok,
-      title: "TikTok",
-      description: "@dev_plastina",
-      url: "https://www.tiktok.com/@dev_plastina",
-    },
-    {
-      img: twitter,
-      title: "Twitter",
-      description: "@plastina",
-      url: "https://www.twitter.com/plastina/",
-    },
+    // {
+    //   img: tiktok,
+    //   title: "TikTok",
+    //   description: "@dev_plastina",
+    //   url: "https://www.tiktok.com/@dev_plastina",
+    // },
+    // {
+    //   img: twitter,
+    //   title: "Twitter",
+    //   description: "@plastina",
+    //   url: "https://www.twitter.com/plastina/",
+    // },
     {
       img: gmail,
       title: "Gmail",
@@ -50,7 +51,7 @@ export function Home() {
   return (
     <>
       <div className="container1 p-4 align-items-center text-center ">
-        <img src={photo} alt="" width={"250px"} className="px-2" />
+        <img src={photo} alt="" width={"250px"} className="px-2" style={{ borderRadius: "50%"}}/>
         <div >
           <h5>Bruno Plastina</h5>
           <p>@dev_plastina</p>
@@ -61,9 +62,9 @@ export function Home() {
           return <Card links={link} />;
         })}
       </div>
-      <div className="text-center p-4 mt-4">
-        <p2>Created by Bruno Plastina</p2>
-      </div>
+        <footer className="footer">
+          <p>Created by Bruno Plastina</p>
+        </footer>
     </>
   );
 }
